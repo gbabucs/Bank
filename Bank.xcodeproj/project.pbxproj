@@ -9,11 +9,44 @@
 /* Begin PBXBuildFile section */
 		6F8F06AA23533CB200B62CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06A923533CB200B62CE8 /* AppDelegate.swift */; };
 		6F8F06AC23533CB200B62CE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06AB23533CB200B62CE8 /* SceneDelegate.swift */; };
-		6F8F06AE23533CB200B62CE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06AD23533CB200B62CE8 /* ViewController.swift */; };
+		6F8F06AE23533CB200B62CE8 /* TransactionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06AD23533CB200B62CE8 /* TransactionListViewController.swift */; };
 		6F8F06B123533CB200B62CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F06AF23533CB200B62CE8 /* Main.storyboard */; };
 		6F8F06B323533CB300B62CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F06B223533CB300B62CE8 /* Assets.xcassets */; };
 		6F8F06B623533CB300B62CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F06B423533CB300B62CE8 /* LaunchScreen.storyboard */; };
 		6F8F06C123533CB300B62CE8 /* BankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06C023533CB300B62CE8 /* BankTests.swift */; };
+		6F8F06CC23533F9D00B62CE8 /* transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F06CB23533F9C00B62CE8 /* transactions.json */; };
+		6F8F06CD23533F9D00B62CE8 /* transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F06CB23533F9C00B62CE8 /* transactions.json */; };
+		6F8F06D023538D8400B62CE8 /* AccountDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06CF23538D8400B62CE8 /* AccountDetailsModel.swift */; };
+		6F8F06D123538D8400B62CE8 /* AccountDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06CF23538D8400B62CE8 /* AccountDetailsModel.swift */; };
+		6F8F06D323538DEA00B62CE8 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06D223538DEA00B62CE8 /* Transaction.swift */; };
+		6F8F06D423538DEA00B62CE8 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06D223538DEA00B62CE8 /* Transaction.swift */; };
+		6F8F06E32355109000B62CE8 /* TransactionListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06E22355109000B62CE8 /* TransactionListCell.swift */; };
+		6F8F06E823551AA800B62CE8 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06E723551AA800B62CE8 /* ArrayExtension.swift */; };
+		6F8F06EB23551AC800B62CE8 /* DatedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06EA23551AC800B62CE8 /* DatedProtocol.swift */; };
+		6F8F06EE23551B4200B62CE8 /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06ED23551B4200B62CE8 /* TransactionListViewModel.swift */; };
+		6F8F06F123551DB100B62CE8 /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06F023551DB100B62CE8 /* TransactionService.swift */; };
+		6F8F06F32355C92C00B62CE8 /* DataAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06F22355C92C00B62CE8 /* DataAdapter.swift */; };
+		6F8F06F42355C92C00B62CE8 /* DataAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06F22355C92C00B62CE8 /* DataAdapter.swift */; };
+		6F8F06F62355CB7500B62CE8 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06F52355CB7400B62CE8 /* AppError.swift */; };
+		6F8F06F72355CB7500B62CE8 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06F52355CB7400B62CE8 /* AppError.swift */; };
+		6F8F06F92355E3A000B62CE8 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06F82355E3A000B62CE8 /* Cell.swift */; };
+		6F8F06FA2355E3A000B62CE8 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06F82355E3A000B62CE8 /* Cell.swift */; };
+		6F8F06FC2355FC0000B62CE8 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06FB2355FC0000B62CE8 /* Section.swift */; };
+		6F8F06FD2355FC0000B62CE8 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06FB2355FC0000B62CE8 /* Section.swift */; };
+		6F8F07002356270500B62CE8 /* TransactionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06FF2356270500B62CE8 /* TransactionDetailViewController.swift */; };
+		6F8F07012356270500B62CE8 /* TransactionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06FF2356270500B62CE8 /* TransactionDetailViewController.swift */; };
+		6F8F070423562F1E00B62CE8 /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F070323562F1E00B62CE8 /* Amount.swift */; };
+		6F8F070523562F1E00B62CE8 /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F070323562F1E00B62CE8 /* Amount.swift */; };
+		6F8F07072356326A00B62CE8 /* InteractiveModalTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F07062356326A00B62CE8 /* InteractiveModalTransitioningDelegate.swift */; };
+		6F8F07082356326A00B62CE8 /* InteractiveModalTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F07062356326A00B62CE8 /* InteractiveModalTransitioningDelegate.swift */; };
+		6F8F070A235658E300B62CE8 /* TransactionListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F0709235658E300B62CE8 /* TransactionListViewModelTests.swift */; };
+		6F8F070B2356590800B62CE8 /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06ED23551B4200B62CE8 /* TransactionListViewModel.swift */; };
+		6F8F070C23565EDA00B62CE8 /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06F023551DB100B62CE8 /* TransactionService.swift */; };
+		6F8F070D23565EEA00B62CE8 /* DatedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06EA23551AC800B62CE8 /* DatedProtocol.swift */; };
+		6F8F070E23565EF100B62CE8 /* TransactionListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06E22355109000B62CE8 /* TransactionListCell.swift */; };
+		6F8F070F23565EFB00B62CE8 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F06E723551AA800B62CE8 /* ArrayExtension.swift */; };
+		6F8F0711235660EE00B62CE8 /* TransactionListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F0710235660EE00B62CE8 /* TransactionListViewControllerTests.swift */; };
+		6F8F07132356615E00B62CE8 /* UIStoryboardSequeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F07122356615E00B62CE8 /* UIStoryboardSequeExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +63,7 @@
 		6F8F06A623533CB200B62CE8 /* Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8F06A923533CB200B62CE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F8F06AB23533CB200B62CE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6F8F06AD23533CB200B62CE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F8F06AD23533CB200B62CE8 /* TransactionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewController.swift; sourceTree = "<group>"; };
 		6F8F06B023533CB200B62CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F8F06B223533CB300B62CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F8F06B523533CB300B62CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +71,24 @@
 		6F8F06BC23533CB300B62CE8 /* BankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8F06C023533CB300B62CE8 /* BankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankTests.swift; sourceTree = "<group>"; };
 		6F8F06C223533CB300B62CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F8F06CB23533F9C00B62CE8 /* transactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transactions.json; sourceTree = "<group>"; };
+		6F8F06CF23538D8400B62CE8 /* AccountDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsModel.swift; sourceTree = "<group>"; };
+		6F8F06D223538DEA00B62CE8 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		6F8F06E22355109000B62CE8 /* TransactionListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListCell.swift; sourceTree = "<group>"; };
+		6F8F06E723551AA800B62CE8 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		6F8F06EA23551AC800B62CE8 /* DatedProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatedProtocol.swift; sourceTree = "<group>"; };
+		6F8F06ED23551B4200B62CE8 /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		6F8F06F023551DB100B62CE8 /* TransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
+		6F8F06F22355C92C00B62CE8 /* DataAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAdapter.swift; sourceTree = "<group>"; };
+		6F8F06F52355CB7400B62CE8 /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		6F8F06F82355E3A000B62CE8 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		6F8F06FB2355FC0000B62CE8 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		6F8F06FF2356270500B62CE8 /* TransactionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewController.swift; sourceTree = "<group>"; };
+		6F8F070323562F1E00B62CE8 /* Amount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
+		6F8F07062356326A00B62CE8 /* InteractiveModalTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveModalTransitioningDelegate.swift; sourceTree = "<group>"; };
+		6F8F0709235658E300B62CE8 /* TransactionListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModelTests.swift; sourceTree = "<group>"; };
+		6F8F0710235660EE00B62CE8 /* TransactionListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewControllerTests.swift; sourceTree = "<group>"; };
+		6F8F07122356615E00B62CE8 /* UIStoryboardSequeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardSequeExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +130,17 @@
 		6F8F06A823533CB200B62CE8 /* Bank */ = {
 			isa = PBXGroup;
 			children = (
+				6F8F070223562F1100B62CE8 /* Enum */,
+				6F8F06FE23561ED500B62CE8 /* ViewControllers */,
+				6F8F06EF23551D9700B62CE8 /* Network */,
+				6F8F06EC23551B2A00B62CE8 /* ViewModel */,
+				6F8F06E923551AB900B62CE8 /* Protocol */,
+				6F8F06E623551A9600B62CE8 /* Extension */,
+				6F8F06DF2355105B00B62CE8 /* View */,
+				6F8F06CE23538D6400B62CE8 /* Model */,
+				6F8F06CB23533F9C00B62CE8 /* transactions.json */,
 				6F8F06A923533CB200B62CE8 /* AppDelegate.swift */,
 				6F8F06AB23533CB200B62CE8 /* SceneDelegate.swift */,
-				6F8F06AD23533CB200B62CE8 /* ViewController.swift */,
-				6F8F06AF23533CB200B62CE8 /* Main.storyboard */,
 				6F8F06B223533CB300B62CE8 /* Assets.xcassets */,
 				6F8F06B423533CB300B62CE8 /* LaunchScreen.storyboard */,
 				6F8F06B723533CB300B62CE8 /* Info.plist */,
@@ -95,8 +153,91 @@
 			children = (
 				6F8F06C023533CB300B62CE8 /* BankTests.swift */,
 				6F8F06C223533CB300B62CE8 /* Info.plist */,
+				6F8F0709235658E300B62CE8 /* TransactionListViewModelTests.swift */,
+				6F8F0710235660EE00B62CE8 /* TransactionListViewControllerTests.swift */,
 			);
 			path = BankTests;
+			sourceTree = "<group>";
+		};
+		6F8F06CE23538D6400B62CE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F8F06CF23538D8400B62CE8 /* AccountDetailsModel.swift */,
+				6F8F06D223538DEA00B62CE8 /* Transaction.swift */,
+				6F8F06FB2355FC0000B62CE8 /* Section.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F8F06DF2355105B00B62CE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F8F06AF23533CB200B62CE8 /* Main.storyboard */,
+				6F8F06E02355106600B62CE8 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F8F06E02355106600B62CE8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6F8F06E22355109000B62CE8 /* TransactionListCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6F8F06E623551A9600B62CE8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6F8F06E723551AA800B62CE8 /* ArrayExtension.swift */,
+				6F8F07122356615E00B62CE8 /* UIStoryboardSequeExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6F8F06E923551AB900B62CE8 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				6F8F06EA23551AC800B62CE8 /* DatedProtocol.swift */,
+				6F8F06F82355E3A000B62CE8 /* Cell.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		6F8F06EC23551B2A00B62CE8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6F8F06ED23551B4200B62CE8 /* TransactionListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6F8F06EF23551D9700B62CE8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6F8F06F023551DB100B62CE8 /* TransactionService.swift */,
+				6F8F06F52355CB7400B62CE8 /* AppError.swift */,
+				6F8F06F22355C92C00B62CE8 /* DataAdapter.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6F8F06FE23561ED500B62CE8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F8F07062356326A00B62CE8 /* InteractiveModalTransitioningDelegate.swift */,
+				6F8F06AD23533CB200B62CE8 /* TransactionListViewController.swift */,
+				6F8F06FF2356270500B62CE8 /* TransactionDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6F8F070223562F1100B62CE8 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				6F8F070323562F1E00B62CE8 /* Amount.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +323,7 @@
 			files = (
 				6F8F06B623533CB300B62CE8 /* LaunchScreen.storyboard in Resources */,
 				6F8F06B323533CB300B62CE8 /* Assets.xcassets in Resources */,
+				6F8F06CC23533F9D00B62CE8 /* transactions.json in Resources */,
 				6F8F06B123533CB200B62CE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8F06CD23533F9D00B62CE8 /* transactions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +343,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F8F06AE23533CB200B62CE8 /* ViewController.swift in Sources */,
+				6F8F06FC2355FC0000B62CE8 /* Section.swift in Sources */,
+				6F8F06D023538D8400B62CE8 /* AccountDetailsModel.swift in Sources */,
+				6F8F06EE23551B4200B62CE8 /* TransactionListViewModel.swift in Sources */,
+				6F8F07072356326A00B62CE8 /* InteractiveModalTransitioningDelegate.swift in Sources */,
+				6F8F06AE23533CB200B62CE8 /* TransactionListViewController.swift in Sources */,
+				6F8F06F62355CB7500B62CE8 /* AppError.swift in Sources */,
+				6F8F06E823551AA800B62CE8 /* ArrayExtension.swift in Sources */,
+				6F8F07132356615E00B62CE8 /* UIStoryboardSequeExtension.swift in Sources */,
 				6F8F06AA23533CB200B62CE8 /* AppDelegate.swift in Sources */,
+				6F8F07002356270500B62CE8 /* TransactionDetailViewController.swift in Sources */,
+				6F8F070423562F1E00B62CE8 /* Amount.swift in Sources */,
+				6F8F06F123551DB100B62CE8 /* TransactionService.swift in Sources */,
 				6F8F06AC23533CB200B62CE8 /* SceneDelegate.swift in Sources */,
+				6F8F06F92355E3A000B62CE8 /* Cell.swift in Sources */,
+				6F8F06E32355109000B62CE8 /* TransactionListCell.swift in Sources */,
+				6F8F06D323538DEA00B62CE8 /* Transaction.swift in Sources */,
+				6F8F06EB23551AC800B62CE8 /* DatedProtocol.swift in Sources */,
+				6F8F06F32355C92C00B62CE8 /* DataAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +368,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8F07012356270500B62CE8 /* TransactionDetailViewController.swift in Sources */,
+				6F8F070E23565EF100B62CE8 /* TransactionListCell.swift in Sources */,
+				6F8F06D123538D8400B62CE8 /* AccountDetailsModel.swift in Sources */,
+				6F8F070523562F1E00B62CE8 /* Amount.swift in Sources */,
 				6F8F06C123533CB300B62CE8 /* BankTests.swift in Sources */,
+				6F8F06F72355CB7500B62CE8 /* AppError.swift in Sources */,
+				6F8F070A235658E300B62CE8 /* TransactionListViewModelTests.swift in Sources */,
+				6F8F070D23565EEA00B62CE8 /* DatedProtocol.swift in Sources */,
+				6F8F06FD2355FC0000B62CE8 /* Section.swift in Sources */,
+				6F8F070B2356590800B62CE8 /* TransactionListViewModel.swift in Sources */,
+				6F8F06D423538DEA00B62CE8 /* Transaction.swift in Sources */,
+				6F8F070F23565EFB00B62CE8 /* ArrayExtension.swift in Sources */,
+				6F8F06F42355C92C00B62CE8 /* DataAdapter.swift in Sources */,
+				6F8F06FA2355E3A000B62CE8 /* Cell.swift in Sources */,
+				6F8F07082356326A00B62CE8 /* InteractiveModalTransitioningDelegate.swift in Sources */,
+				6F8F070C23565EDA00B62CE8 /* TransactionService.swift in Sources */,
+				6F8F0711235660EE00B62CE8 /* TransactionListViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
