@@ -30,7 +30,7 @@ class TransactionListViewControllerTests: XCTestCase {
         super.tearDown()
     }
     
-    func test_sut_Can_Instantiate_SearchViewController() {
+    func test_sut_Can_Instantiate_TransactionListViewController() {
         XCTAssertNotNil(sut)
     }
     
@@ -38,8 +38,12 @@ class TransactionListViewControllerTests: XCTestCase {
         XCTAssertNotNil(sut.tableView)
     }
     
-    func test_sut_Has_Values_For_TableView() {
+    func test_sut_Has_Values_For_TableView_Section_NotNil() {
         XCTAssertNotNil(sut.viewModel.sections)
+    }
+    
+    func test_sut_Has_Values_For_TableView_Row_NotNil() {
+        XCTAssertNotNil(sut.viewModel.sections.first?.tranactions)
     }
     
     func test_sut_ShouldSet_TableViewDataSource() {
@@ -72,7 +76,7 @@ class TransactionListViewControllerTests: XCTestCase {
         return (filtered?.count ?? 0) > 0
     }
     
-    func test_sut_HasSegue_Name_showPhotoCollectionViewController() {
+    func test_sut_HasSegue_Name_showTransactionDetailViewController() {
 
         let targetIdentifier = UIStoryboardSegue.Name.identifier
         XCTAssertTrue(hasSegueWithIdentifier(id: targetIdentifier))

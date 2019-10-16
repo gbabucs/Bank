@@ -109,7 +109,7 @@
         <!--Transaction Detail View Controller-->
         <scene sceneID="use-FO-yE8">
             <objects>
-                <viewController id="nCX-k2-Pgo" customClass="TransactionDetailViewController" customModule="Bank" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TransactionDetailViewController" id="nCX-k2-Pgo" customClass="TransactionDetailViewController" customModule="Bank" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9jQ-Ea-jhe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

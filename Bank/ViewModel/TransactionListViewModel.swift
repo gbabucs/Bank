@@ -12,11 +12,12 @@ class TransactionListViewModel {
     
     var sections = [Section]()
     var accountDetailsModel: AccountDetailsModel?
-    var data: [Date:[Transaction]] = [:]
     
     var numberOfSections: Int {
         return sections.count
     }
+    
+    private var data: [Date:[Transaction]] = [:]
     
     lazy var dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
